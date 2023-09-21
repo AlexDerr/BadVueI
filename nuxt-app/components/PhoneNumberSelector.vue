@@ -16,8 +16,8 @@
 <script setup lang="ts">
   import { onMounted } from 'vue';
 
-  let rows = ref(10)
-  let cols = ref(10)
+  let rows = ref(10);
+  let cols = ref(10);
   let phoneNumbers = ref([]);
   let selectedPhoneNumber = ref("");
 
